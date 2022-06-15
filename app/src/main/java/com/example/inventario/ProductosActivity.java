@@ -42,7 +42,7 @@ public class ProductosActivity extends AppCompatActivity implements View.OnClick
         Toast.makeText(this, "" + newproducs, Toast.LENGTH_SHORT).show();
     }
 
-    public void previous(){
+    public void previous() {
         Intent atras = new Intent(ProductosActivity.this,MainActivity.class);
         startActivity(atras);
     }
@@ -57,7 +57,7 @@ public class ProductosActivity extends AppCompatActivity implements View.OnClick
             case R.id.btnCreate:
                 registerProduct(v);
                 break;
-            case R.id.btnPrevius:
+                case R.id.btnPrevius:
                 previous();
                 break;
             case R.id.btnConsultar:

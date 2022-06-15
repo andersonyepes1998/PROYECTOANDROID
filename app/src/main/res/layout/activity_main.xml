@@ -79,6 +79,17 @@
                     android:textSize="16sp" />
 
                 <Button
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/black"
+                    android:padding="10dp"
+                    android:text="Inscribirse"
+                    app:cornerRadius="20dp" />
+
+                <Button
                     android:id="@+id/btnSignin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -86,7 +97,7 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="@color/black"
                     android:padding="10dp"
-                    android:text="Registrarse"
+                    android:text="Registrar producto"
                     app:cornerRadius="20dp" />
 
                 <TextView
@@ -99,17 +110,6 @@
                     android:text="Has olvidado tu contraseña?"
                     android:textColor="@color/orange"
                     android:textSize="16sp" />
-
-                <Button
-                    android:id="@+id/btnSignUp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="20dp"
-                    android:backgroundTint="@color/black"
-                    android:padding="10dp"
-                    android:text="Inscribirse"
-                    app:cornerRadius="20dp" />
 
             </LinearLayout>
 
